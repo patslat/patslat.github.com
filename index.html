@@ -5,13 +5,14 @@
 <html>
 <head>
 	<link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
 	<script src="/js/site.js"></script>
-	<title>My Blog</title>
+  <title>{{ site.name }}</title>
 </head>
 <body>
-	<header>
+	<div class="navbar navbar-fixed-top header">
 		{% include header.html %}
-	</header>
+	</div>
 	<div class="container">
 		{% for post in site.posts %}
 			<article>
@@ -21,8 +22,8 @@
 			</article>
 		{% endfor %}
 	</div>
-	<footer>
+	<div class="page-footer">
 		{% include footer.html %}
-	</footer>
+	</div>
 </body>
 </html>

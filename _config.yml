@@ -1,5 +1,10 @@
+name: "Patrick Slattery"
+description: "Web Developer"
+url: "http://localhost:4000"
+
+permalink: pretty
+
 server_port:  5000
 auto: true
 
 timezone: America/California
-baserurl: patslat.github.io
