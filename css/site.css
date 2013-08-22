@@ -5,7 +5,22 @@ body {
 
 .header {
   background-color: #84A5CC !important;
+  height: 20%;
 }
+
 .header small {
   color: green !important;
+}
+
+.header .page-header {
+  border-bottom: 0px !important;
+}
+
+.main-content {
+  padding-top:20%;
+  height:80%;
+}
+
+.jumbotron {
+  background-color: #FFC4BE !important;
 }
