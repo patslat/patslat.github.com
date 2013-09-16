@@ -65,8 +65,10 @@ body {
 }
 
 .panel * {
+  color: #333333 ;
+}
+.panel-body {
   border: none !important;
-  color: #333333;
 }
 
 .panel a {
